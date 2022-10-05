@@ -53,8 +53,8 @@ main {
 	display: flow-root;
 }
 
-main>p {
-	padding-block: 1em;
+main > p {
+	margin-block: 1em;
 }
 
 .container {
