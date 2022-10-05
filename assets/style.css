@@ -2,7 +2,6 @@
 	--hover-back: rgb(204, 204, 204);
 	--hover-color: rgb(18, 18, 18);
 	font-family: "menlo", monospace;
-	min-width: 594px;
 }
 
 * {
@@ -94,7 +93,7 @@ main>p {
 	width: 33vw;
 	background-color: black;
 	color: white;
-	font-size: 0.7vw;
+	font-size: 0.6vw;
 	white-space: pre;
 	text-align: center;
 	font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono','CourierNew', monospace;
