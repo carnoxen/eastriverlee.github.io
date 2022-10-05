@@ -38,7 +38,6 @@ nav ul li a {
 	background-color: var(--hover-back);
 	color: var(--hover-color);
 	display: block;
-    width: 100%;
 }
 
 nav ul li a.active {
