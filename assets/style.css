@@ -111,4 +111,5 @@ footer {
 	color: rgb(0, 180, 200);
 	position: sticky;
 	inset-block-end: 0;
+	backface-visibility: hidden;
 }
