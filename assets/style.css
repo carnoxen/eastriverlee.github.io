@@ -81,7 +81,7 @@ main>p {
 	color: #eeeeee;
 }
 
-.ascii {
+.ascii-photo {
 	float: right;
 	margin-left: 16px;
 	margin-right: 0;
@@ -92,6 +92,10 @@ main>p {
 	height: 33vw;
 	width: 33vw;
 	background-color: black;
+	color: white;
+  font-size: 2vw;
+  white-space: pre;
+  font-family:'Menlo', monospace;
 }
 
 footer {
