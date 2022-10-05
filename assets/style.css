@@ -93,10 +93,11 @@ main>p {
 	width: 33vw;
 	background-color: black;
 	color: white;
-	font-size: 0.5vw;
+	font-size: 3.3vb;
 	white-space: pre;
 	overflow: hidden;
-	font-family:'Menlo', monospace;
+	text-align: center;
+	font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono','CourierNew', monospace;
 }
 
 footer {
