@@ -94,11 +94,14 @@ main>p {
 	width: 33vw;
 	background-color: black;
 	color: white;
-	font-size: 80%;
+	font-size: 0.7vw;
 	white-space: pre;
-	overflow: hidden;
 	text-align: center;
 	font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono','CourierNew', monospace;
+}
+
+.ascii-photo div {
+	overflow: hidden;
 }
 
 footer {
