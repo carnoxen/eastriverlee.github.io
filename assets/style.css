@@ -1,6 +1,6 @@
 :root {
-	--hover-back: rgb(18, 18, 18);
-	--hover-color: rgb(204, 204, 204);
+	--hover-back: rgb(204, 204, 204);
+	--hover-color: rgb(18, 18, 18);
 	font-family: "menlo", monospace;
 	min-width: 594px;
 }
@@ -38,14 +38,18 @@ nav ul li a {
 	display: block;
 }
 
+nav ul li a:link {
+	color: inherit;
+}
+
 nav ul li a.active {
 	background-color: white;
 	color: black;
 }
 
 nav ul li a:hover {
-	background-color: var(--hover-color);
-	color: var(--hover-back);
+	background-color: var(--hover-back);
+	color: var(--hover-color);
 }
 
 main {
