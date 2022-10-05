@@ -93,9 +93,10 @@ main>p {
 	width: 33vw;
 	background-color: black;
 	color: white;
-  font-size: 2vw;
-  white-space: pre;
-  font-family:'Menlo', monospace;
+	font-size: 0.5vw;
+	white-space: pre;
+	overflow: hidden;
+	font-family:'Menlo', monospace;
 }
 
 footer {
