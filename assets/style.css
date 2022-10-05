@@ -102,6 +102,8 @@ main>p {
 
 .ascii-photo div {
 	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 footer {
