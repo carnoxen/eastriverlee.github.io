@@ -35,8 +35,6 @@ nav ul li a {
 	text-align: center;
     text-decoration: none;
 	padding: 8px;
-	background-color: var(--hover-back);
-	color: var(--hover-color);
 	display: block;
 }
 
