@@ -4,7 +4,11 @@
         <ul>
             {% for link in site.data.nav-links %}
             <li>
-                <a href="{{ link.url }}" class="{% if page.url == link.url %}active{% endif %}">{{ link.name }}</a>
+                {% if page.url == link.url %}
+                <a href="{{ link.url }}" class="active">{{ link.name }}</a>
+                {% else %}
+                <a href="{{ link.url }}">{{ link.name }}</a>
+                {% endif %}
             </li>
             {% endfor %}
         </ul>
