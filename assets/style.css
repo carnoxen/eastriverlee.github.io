@@ -97,6 +97,8 @@ main > p {
 	white-space: pre;
 	text-align: center;
 	font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono','CourierNew', monospace;
+	display: grid;
+	place-content: center;
 }
 
 .ascii-photo div {
