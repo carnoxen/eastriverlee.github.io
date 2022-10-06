@@ -1,116 +1,116 @@
 :root {
-	--hover-back: rgb(204, 204, 204);
-	--hover-color: rgb(18, 18, 18);
-	font-family: "menlo", monospace;
+    --hover-back: rgb(204, 204, 204);
+    --hover-color: rgb(18, 18, 18);
+    font-family: "menlo", monospace;
 }
 
 * {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
-	user-select: none;
-	background-color: black;
-	color: white;
-	margin: 2%;
+    user-select: none;
+    background-color: black;
+    color: white;
+    margin: 2%;
 }
 
 header>h1 {
-	padding: 8px;
-	padding-bottom: 20px;
+    padding: 8px;
+    padding-bottom: 20px;
 }
 
 nav ul {
-	list-style: none;
-	display: flex;
+    list-style: none;
+    display: flex;
 }
 
 nav ul li {
-	width: 100%;
+    width: 100%;
 }
 
 nav ul li a {
-	text-align: center;
-	text-decoration: none;
-	padding: 8px;
-	display: block;
-	color: inherit;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    color: inherit;
 }
 
 nav ul li a.active {
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
 }
 
 nav ul li a:hover {
-	background-color: var(--hover-back);
-	color: var(--hover-color);
+    background-color: var(--hover-back);
+    color: var(--hover-color);
 }
 
 main {
-	margin: 2%;
-	display: flow-root;
+    margin: 2%;
+    display: flow-root;
 }
 
-main > p {
-	margin-block: 1em;
+main>p {
+    margin-block: 1em;
 }
 
 .container {
-	aspect-ratio: 560 / 315;
-	margin-block-end: 1em;
+    aspect-ratio: 560 / 315;
+    margin-block-end: 1em;
 }
 
 .container:last-of-type {
-	margin-block-end: 0;
+    margin-block-end: 0;
 }
 
 .video {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .em {
-	background-color: rgb(204, 18, 18);
-	color: white;
-	padding: 0.2em;
+    background-color: rgb(204, 18, 18);
+    color: white;
+    padding: 0.2em;
 }
 
 #result {
-	color: #eeeeee;
+    color: #eeeeee;
 }
 
 .ascii-photo {
-	float: right;
-	margin-left: 16px;
-	margin-right: 0;
-	margin-bottom: 40px;
-	margin-top: 4px;
-	bottom: 0;
-	padding: 16px;
-	height: 33vw;
-	width: 33vw;
-	background-color: black;
-	color: white;
-	font-size: 0.6vw;
-	white-space: pre;
-	text-align: center;
-	font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono','CourierNew', monospace;
+    float: right;
+    margin-left: 16px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    margin-top: 4px;
+    bottom: 0;
+    padding: 16px;
+    height: 33vw;
+    width: 33vw;
+    background-color: black;
+    color: white;
+    font-size: 0.6vw;
+    white-space: pre;
+    text-align: center;
+    font-family: 'Menlo', 'Courier', 'Consolas', 'BitstreamVeraSansMono', 'CourierNew', monospace;
 }
 
 .ascii-photo div {
-	overflow: hidden;
-	width: 100%;
-	height: 100%;
-	display: grid;
-	place-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
 }
 
 footer {
-	padding: 8px;
-	background-color: rgb(18, 18, 204);
-	color: rgb(0, 180, 200);
-	position: sticky;
-	inset-block-end: 0;
+    padding: 8px;
+    background-color: rgb(18, 18, 204);
+    color: rgb(0, 180, 200);
+    position: sticky;
+    inset-block-end: 0;
 }
